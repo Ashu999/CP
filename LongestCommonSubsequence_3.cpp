@@ -32,8 +32,7 @@ int LCSLength(string X, string Y, string Z)
 			}
 		}
 	}
-
-
+	
 	return lookup[m][n][o];
 }
 
@@ -45,7 +44,6 @@ int main()
         cin>>X;
         cin>>Y;
         cin>>Z;
-
 
 	int l = LCSLength(X, Y, Z);
         cout<<l;
